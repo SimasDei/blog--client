@@ -16,6 +16,12 @@
     "react-scripts": "3.4.1",
     "typescript": "~3.7.2"
   },
+  "prettier": {
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 120
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

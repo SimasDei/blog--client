@@ -8,4 +8,5 @@ interface Post {
 interface Comment {
 	id: string;
 	content: string;
+	status: 'pending' | 'rejected' | 'approved';
 }
